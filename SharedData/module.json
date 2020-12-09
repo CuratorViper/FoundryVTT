@@ -1,0 +1,60 @@
+{   
+    "name": "SharedData",   
+    "title": "Shared Data",   
+    "description": "Sharing data across worlds",   
+    "author": "CuratorViper",
+    "version": "1.0.0",
+    "minimumCoreVersion": "0.7.8",
+    "compatibleCoreVersion":"0.7.8",
+    "packs": [
+        {
+          "name": "items",
+          "label": "CuratorViper's Items",
+          "path": "packs/items.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "features",
+          "label": "CuratorViper's Features",
+          "path": "packs/features.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "spells",
+          "label": "CuratorViper's Spells",
+          "path": "packs/spells.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "monsters",
+          "label": "CuratorViper's Monsters",
+          "path": "packs/monsters.db",
+          "entity": "Actor",
+          "module": "SharedData"
+        },
+        {
+            "name": "rolltables",
+            "label": "CuratorViper's Roll Tables",
+            "path": "packs/rolltables.db",
+            "entity": "RollTable",
+            "module": "SharedData"
+          },
+          {
+            "name": "journalentires",
+            "label": "CuratorViper's Journal Entires",
+            "path": "packs/journalentries.db",
+            "entity": "JournalEntry",
+            "module": "SharedData"
+          },
+        {
+          "name": "scenes",
+          "label": "CuratorViper's Scenes",
+          "path": "packs/scenes.db",
+          "entity": "Scene",
+          "module": "SharedData"
+        }
+      ]
+  }
