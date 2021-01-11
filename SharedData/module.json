@@ -3,7 +3,7 @@
     "title": "Shared Data",   
     "description": "Sharing data across worlds",   
     "author": "CuratorViper",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "minimumCoreVersion": "0.7.9",
     "compatibleCoreVersion":"0.7.9",
     "packs": [
@@ -18,6 +18,13 @@
           "name": "features",
           "label": "CuratorViper's Features",
           "path": "packs/features.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "monsterfeatures",
+          "label": "CuratorViper's Monster Features",
+          "path": "packs/monsterfeatures.db",
           "entity": "Item",
           "module": "SharedData"
         },
