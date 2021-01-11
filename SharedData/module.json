@@ -3,7 +3,7 @@
     "title": "Shared Data",   
     "description": "Sharing data across worlds",   
     "author": "CuratorViper",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "minimumCoreVersion": "0.7.9",
     "compatibleCoreVersion":"0.7.9",
     "packs": [
@@ -36,9 +36,23 @@
           "module": "SharedData"
         },
         {
+          "name": "classfeatures",
+          "label": "CuratorViper's Class Feautures",
+          "path": "packs/classfeatures.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
           "name": "races",
           "label": "CuratorViper's Races",
           "path": "packs/races.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "feats",
+          "label": "CuratorViper's Feats",
+          "path": "packs/feats.db",
           "entity": "Item",
           "module": "SharedData"
         },
