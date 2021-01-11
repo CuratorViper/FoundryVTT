@@ -4,8 +4,8 @@
     "description": "Sharing data across worlds",   
     "author": "CuratorViper",
     "version": "1.0.0",
-    "minimumCoreVersion": "0.7.8",
-    "compatibleCoreVersion":"0.7.8",
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion":"0.7.9",
     "packs": [
         {
           "name": "items",
@@ -25,6 +25,27 @@
           "name": "spells",
           "label": "CuratorViper's Spells",
           "path": "packs/spells.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "classes",
+          "label": "CuratorViper's Classes",
+          "path": "packs/classes.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "races",
+          "label": "CuratorViper's Races",
+          "path": "packs/races.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "racialtraits",
+          "label": "CuratorViper's Racial Traits",
+          "path": "packs/racialtraits.db",
           "entity": "Item",
           "module": "SharedData"
         },
